@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    font-family:Arial;
+    background:#0f172a;
+    color:white;
+}
+
+/* MENU */
+
+nav{
+    background:#020617;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px;
+}
+
+nav h2{
+    margin:0;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:15px;
+}
+
+/* HEADER */
+
+header{
+    text-align:center;
+    padding:60px 20px;
+}
+
+header h1{
+    font-size:35px;
+}
+
+/* TARJETAS */
+
+.cards{
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 0 15px rgba(0,0,0,0.3);
+
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:12px;
+    font-size:16px;
+    margin-top:10px;
+}
+
+button:active{
+    transform:scale(0.95);
+}
+
+/* FOOTER */
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    background:#020617;
+}
+
+.banner{
+    width:100%;
+    border-radius:20px;
+    margin-bottom:20px;
+}
